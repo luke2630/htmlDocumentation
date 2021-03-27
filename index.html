@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css"><!--href= "css page name"-->
+    <title>Hello</title><!--in a tab this is the name that will be displayed-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--this is some basic code to help it work on mobile too. I'm not sure exactly how it works but it does so...-->
+    <meta charset="UTF-8"><!--makes it so that you use the google chrome standard so that everything that you didn't specify will be replaced with defaults instead of just breaking.-->
+</head>
+<body>
+    <!--the H stands for Header and the number stands for how important it is-->
+    <h1>h1 Text</h1> <!-- this will just display as text-->
+    <h2>h2 Text</h2>
+    <h3>h3 Text</h3>
+    <h4>h4 Text</h4>
+    <h5>h5 Text</h5>
+    <h6>h6 Text</h6>
+
+    <p>These are paragraph text, this is where you want to put the majority of your text. Therefore these should be quite long. Again for all text items, the font can be changed through CSS therefore you choice of which item to use should not rely on the default font size but on the importance of said text/header </p>
+    
+    <a href="youtube.com">link</a> <!--This is how you enter a link inside a text. You can also do it inside a paragraph. Simply do a tab and then type in the link inside quotes. You can also use this to navigate between pages within your own website. Therefore to navigate the internent and within your own website you will be using a.-->
+    
+    <p>Hello wouldn't it be great if you went here: <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">its an amazing place I promie</a> This is not a sketchy website. It is merely a youtube link.</p><!--this is an example of using a link inside a paragrah. You can pretty much insert links anywhere.-->
+
+    <img src="/images/imageEx.png" alt=""><!--for images make sure you have a copy of the image inside your folder. Preferably they will be in a special folder called images where you can pull from. Having them in a seperate folder it makes it easier for them to be pulled from without getting in the way of you navigating between html, css, and js cases.
+    The naming protocol for images is /foldername/imagename.imagetype. Therefore you can see from the example its from the folder images, the name of the image is imageEx and the image type .png-->
+
+    <br> <!--adds a space between items, usually things like images and such will sit right next to some text, and if you want it to move to the next line you use this-->
+    <hr> <!--this is the same thing as the br but with a line-->
+    <table> <!--This is how you create a table, you can't use the other tr and th elements without it. It also just helps to organize a table-->
+        <tr>
+            <th>Row 1 Column 1</th><!--each th is a different column. You should try to create the same amount of the or columns in the first row. This allows the formatting to sort itself right away without having to re-adjust if you were to add more rows later-->
+            <th>Row 1 Column 2</th>
+            <th>Row 1 Column 3</th>
+        </tr>
+        <tr>
+            <th>Row 2 Column 1</th> <!--each tr is for creating a new row. Therefore everything under the same tr header are from the same header.-->
+            <th>Row 2 Column 2</th>
+            <th>Row 3 Column 3</th>
+        </tr>
+        <tr>
+            <th>Row 3 Column 1</th>
+            <th>Row 3 Column 2</th>
+            <th>Row 3 Column 3</th>
+        </tr>
+    </table>
+
+    <ul> <!--ul stands for unordered list. Therefore the standard list syle will be something like bullet notes. You can get rid of this in css if you want a list without styling.-->
+        <li>item 1</li><!--this is you have add items to a list. It's just li which stands for list item to add a list item-->
+        <li>item 2</li>
+        <li>item 3</li>
+    </ul>
+
+    <ol><!--ol stands for ordered list which can be used like a normal list but they have ordered bullet points. If you want a list without styling just use ul, this is only if you want them ordered and want to style that orderig-->
+        <li>item 1</li><!--entereing in a list style is the same-->
+        <li>item 2</li>
+        <li>item 3</li>
+    </ol>
+
+    <div><!--The div element is used to apply an element class or id for an entire block of text. It makes it so that you don't have to type class="class" for a bunch of different elements again and again because you want a uniform look. It also allows you to make sure a javascript script to run on just one part of the website for whatever reason(most likely to make it more efficient)-->
+        <h3>Example Header</h3>
+        <p>Example paragraph text</p>
+    </div>
+
+    <a href="https://www.w3schools.com/html/html_emojis.asp">how to add emojis</a>
+
+    <br>
+
+    <iframe src="https://cc.sduhsd.net/" height="1000px" width="80%"></iframe><!--this is just embedding another website into your website. kind of like the embed option within google sites. You need to enter the height and width for it inside the thing-->
+
+    <script></script><!--You just put your javasript here. you can either code javascript directly here(although thats not recommended because it's less organized), or more likely you'll link your JS files here for them to run-->
+
+    <br><!--Here's an example of the need for br. Without it you can see that it will reside right next to the script-->
+
+    <a href="/sample.html" id="moveDown">Link to a sample webpage</a>
+
+    <a href="https://www.w3schools.com/html/html_computercode_elements.asp">Link to the w3 schools on the different kind of commands you can use for your webpage</a>
+
+</body>
+</html>
